@@ -1,0 +1,26 @@
+public class GFG {
+ 
+    // Main driver method
+    public static void main(String[] args)
+    {
+ 
+        // Creating an object of Date class- date
+        Date date = new Date();
+ 
+        // Printing date
+        System.out.println(date.toString());
+        System.out.println(date.getTime());
+ 
+        // Remember to add 1 to it because this print
+        // current month Jan is assigned 0
+        System.out.println(date.getMonth() + 1);
+ 
+        // Remember to add 1 to it because this print
+        // epoch year 1970 is set as reference
+        system.out.println(date.getYear() + 1900);
+ 
+        // For week internally it starts with Monday=1
+        System.out.println(date.getDay(date));
+        
+    }
+}
